@@ -1,0 +1,1230 @@
+@charset "utf-8";
+
+/*************************************************
+			= default
+*************************************************/
+
+#fc2_footer{
+	display:none;
+}
+img{
+	border:0;
+}
+
+body{
+	font-family: "myFont", serif;
+	margin:0 auto;
+	padding:0;
+	color:#444444;
+	font-size: 12px;
+	background-color:#000000;
+}
+
+.background-hack {
+    z-index                 : -1;
+    background-color        : #fff;
+   background-image:url(../img/Color_bg.png); 
+    background-repeat       : no-repeat;
+    background-size         : 100% auto;
+    position                : fixed;
+    top                     : 0;
+    left                    : 0;
+    right                   : 0;
+    bottom                  : 0;
+}
+.background-hack2 {
+    z-index                 : -1;
+    background-color        : #fff;
+   background-image:url(../img/Color_bg2.png); 
+    background-repeat       : no-repeat;
+    background-size         : 100% auto;
+    position                : fixed;
+    top                     : 0;
+    left                    : 0;
+    right                   : 0;
+    bottom                  : 0;
+}
+
+#top_inner{
+	width:1200px;
+}
+
+a{
+	text-decoration: none;
+	color: #2ea2cc;
+}
+a:hover{
+	color:#1ba891;
+}
+a.disnone{
+	display:none;
+}
+h1{
+	display:none;
+	position:relative;
+	overflow:hidden;
+	height:110px;
+	margin-top:0px;
+}
+h2{
+	margin-left:10px;
+	text-shadow: 0 1px 0 #fff;
+}
+#AccessPage h1 img,#event_info h1 img,#ApplicationPage h1 img{
+	max-width:480px;
+}
+ul{
+	margin:0;
+	padding:0;
+}
+li{
+	list-style:none;
+}
+
+#contentsWrap{
+}
+#header{
+	position:absolute;
+	z-index:20;
+}
+
+#menu{
+	width:100%;
+}
+#menu li{
+	display:block;
+	float:left;
+	color:#999;
+	font-size:12px;
+	font-weight:bolder;
+	cursor:pointer;
+	margin:0;
+	/**/
+	
+}
+
+
+
+
+#footer{
+	width:100%;
+	padding:14px 0px;
+	text-align:center;
+	color:#fff;
+	font-size:80%;
+	font-weight:bolder;
+	background:#ffadad;
+	position:absolute;
+	left:0;
+}
+
+
+
+#sns{
+	display:block;;
+}
+
+
+
+#menu li img{
+	width:100%;
+}
+
+ul li{
+	display:block;
+}
+#box_area .box{
+	float:left;
+	width:48%;
+	min-width:120px;
+	display:block;
+	margin:5px auto;
+}
+#box_area .box img{
+	margin:5px;
+}
+#box_area .box.left{
+	padding-right:10px;
+}
+
+
+#box_area{
+	padding:10px;
+	max-width:920px;
+	margin:0 auto;
+}
+
+#event_info #box_area .box{
+	width:98%;
+}
+
+
+dl dt{
+	font-size:100%;
+	font-weight:bolder;
+}
+dl dt p{
+	padding:0;
+	margin:4px;
+}
+dl dd{
+	margin:0;
+	padding:0;
+}
+
+#contents{
+	margin:0 auto;
+}
+.banners{
+	display:block;
+	margin:0 auto;
+	
+}
+.banners li{
+	float:left;
+	margin:5px;
+	width:190px;
+}
+.banners li img{
+	width:100%;
+}
+
+.banner_area{
+	width:340px;
+	padding:10px;
+}
+
+.banner_area .box{
+	width:95%;
+}
+
+#cautions dt{
+	border:none;
+	color:#333;
+}
+#cautions dd{
+	color:#666;
+	font-size:80%;
+}
+
+#AccessPage .box{
+	width:95%;
+}
+
+#map_area{
+	margin:20px 0px;
+}
+#map_canvas{
+	-webkit-box-shadow: 0px 0px 7px #000000;
+	-moz-box-shadow: 0px 0px 7px #000000;
+	box-shadow: 0px 0px 7px #000000;
+}
+#map_img img{
+	-webkit-box-shadow: 0px 0px 7px #000000;
+	-moz-box-shadow: 0px 0px 7px #000000;
+	box-shadow: 0px 0px 7px #000000;
+}
+#AppButton{
+	width:140px;
+	margin:40px auto;
+}
+#AppButton img{
+	width:138px;
+}
+#ApplicationPage .box{
+	width:98%;
+}
+/*-----------slide_cont-------------*/
+
+
+#slide_list{
+
+	margin-top:0px;
+	padding:0px;
+	padding-bottom:6px;
+}
+
+.slide_list_cont{
+		/* border-radius */
+border-radius:3px;
+-webkit-border-radius:3px;
+-moz-border-radius:3px;
+	cursor:pointer;
+	float:left;
+	width:120px;
+	height:120px;
+	margin-left:10px;
+}
+
+.slide_list_cont img{
+	width:100%;
+	opacity: 0.4;
+}
+
+.slide_list_cont.active{
+
+
+/* box-shadow */
+box-shadow:rgba(255, 235, 156, 0.65098) 0px 0px 6px 3px;
+-webkit-box-shadow:rgba(255, 235, 156, 0.65098) 0px 0px 6px 3px;
+-moz-box-shadow:rgba(255, 235, 156, 0.65098) 0px 0px 6px 3px;
+}
+
+.slide_list_cont.active img{
+	opacity:0.8;
+}
+
+
+#slide_wrap{
+	position:relative;
+	overflow:hidden;
+	
+}
+
+#top #slide_area{
+	/*
+	overflow:hidden;
+	*/
+	height:880px;
+	margin:0px;
+	margin-top:140px;
+	margin-bottom:40px;
+}
+
+#slide_area img{
+	width:100%;
+}
+#slide_area .package img{
+	width:450px;
+	height:450px;
+}
+
+
+
+
+/**/
+#slide_area .slide_cont.gumi dt{
+
+	width:94%;
+	float:none;
+	margin:0 auto;
+}
+.gumi img{
+	width:98%;
+}
+#slide_area .gumi img{
+width: 98%;
+}
+
+.gumi .main_img{
+	text-align:center;
+}
+
+
+
+#gumi_bnr{
+	background: #9fc929 url(../img/gumi_bnr_bg.png) no-repeat;
+	width: 100%; 
+	background-size: 100%;
+}
+
+#gumi_bnr li{
+	padding:10px;
+}
+
+#gumi_bnr li img{
+	width:100%;
+}
+#gumi_bnr li.icon_img{
+	min-width:170px;
+	width:24%;
+	/*
+	float:left;
+	*/
+	margin:0 auto;
+}
+
+#gumi_bnr .bnr_top_text{
+	min-width:250px;
+	width:96%;
+	float:left;
+	/*
+	padding:20px;
+	*/
+}
+
+#gumi_bnr{
+	-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+/*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+border:#fff solid 3px;
+}
+#gumi_bnr_wrap{
+		-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+/*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+	border:#9fc929 solid 3px;
+	width:100%;
+	max-width:700px;
+	margin:0 auto;
+}
+
+
+
+
+
+
+#slide_area .slide_cont h2{
+	font-size:16px;
+	margin-left:0;
+}
+
+
+
+#news .slide_pa{
+	
+	padding:10px 0px;
+}
+
+
+#slide_area dl{
+	display:block;
+	position:relative;
+	
+}
+
+#news #slide_area .gumi .slide_cont {
+	margin:0 auto;
+	padding:0;
+	width:80%;
+}
+
+#slide_area dl dt{
+	display:block;
+	border:none;
+}
+
+
+#slide_area dl dd{
+	display:block;
+}
+
+
+#slide_area dl .package.bnr{
+	width:100%;
+
+	margin-top:0%;
+	float:none;
+	position:relative;
+}
+
+#slide_area dl .package.bnr .main_img {
+display: block;
+width: 100%;
+top: 16%;
+position: absolute;
+z-index: 3;
+}
+
+#top #slide_area dl .package.bnr {
+margin-bottom: 0px;
+}
+
+/* slide_obj */
+
+.slide_pa{
+	width:100%;
+	height:400px;
+	position:relative;
+	margin:0px;
+	float:left;
+}
+
+
+
+
+
+/*-----------anime-------------*/
+
+#slide_area .package{
+	z-index:10;
+	position:absolute;
+	width:38%;
+	opacity:0;
+	left:1000px;
+	top:180px;
+}
+
+
+#slide_area .active .package{
+	z-index:10;
+	position:absolute;
+	padding-left:10px;
+	width:40%;
+	opacity:1;
+	left:0px;
+	top:180px;
+}
+
+#slide_area .active .package img{
+	border: 4px solid #fff;
+	/* border-radius */
+border-radius:10px;
+-webkit-border-radius:10px;
+-moz-border-radius:10px;
+
+/* box-shadow */
+box-shadow:rgba(255, 227, 227, 0.65098) 0px 0px 6px 3px;
+-webkit-box-shadow:rgba(255, 227, 227, 0.65098) 0px 0px 6px 3px;
+-moz-box-shadow:rgba(255, 227, 227, 0.65098) 0px 0px 6px 3px;
+}
+
+
+#slide_area .CD_Title{
+	z-index:120;
+	top:630px;
+	left:10px;
+	position:absolute;
+	width:362px;
+	height:119px;
+	
+	background: url(../img/Top_slide_title.png) ;
+	background-size: 100%;
+	
+}
+
+
+#slide_area .CD_Title h2{
+	position:absolute;
+	width:800px;
+	top:-10px;
+	left:10px;
+	font-size:56px;
+	font-weight:bolder;
+	color:#fff;
+	z-index:100;
+	/*テキストの縁取り*/
+	filter:dropshadow(color=#43414f,offX= 0,offY=-1)
+dropshadow(color=#43414f,offX= 1,offY= 0)
+dropshadow(color=#43414f,offX= 0,offY= 1)
+dropshadow(color=#43414f,offX=-1,offY= 0);
+ 
+-webkit-text-stroke-color: #43414f;
+-webkit-text-stroke-width: 1px;
+ 
+text-shadow: #43414f 1px 1px 0px, black -1px 1px 0px,
+             #43414f 1px -1px 0px, black -1px -1px 0px;	
+}
+
+
+#slide_area .sound_cloud{
+	z-index:20;
+	position:absolute;
+	width:100%;
+	margin-left:1%;
+	top:710px;
+}
+
+
+
+#slide_area dl dd.under_text{
+	z-index:13;
+	padding:10px;
+	background-color:rgba(0,0,255,0.1);
+	position:absolute;
+	width:50%;
+	top:140px;
+	right:1000px;
+	color:#fff;
+	opacity:0;
+	font-weight:bolder;
+  text-shadow: 0px 0px 2px rgb( 6, 27, 255 );
+
+	
+}
+
+#slide_area .active dl dd.under_text{
+	z-index:13;
+	padding:10px;
+	opacity:1;
+	background-color: rgba(255,255,255,0.6);
+	position:absolute;
+	width:59%;
+	top:184px;
+	right:0;
+font-weight: bold;
+font-size: 12px;
+color:#f277a0;;
+text-shadow: -1px -1px 0px #fff,
+ 1px -1px 0px #fff,
+ 1px 1px 0px #fff,
+ -1px 1px 0px #fff;
+}
+#slide_area .active dl dd.under_text dl{
+	width:510px;
+}
+#slide_area .active dl dd.under_text .banner_area dl{
+	width:100%;
+}
+
+
+/*-----------anime-------------*/
+
+#slide_area dl dd.under_text dl{
+	width:60%;
+	float:left;
+}
+#slide_area dl dd.under_text dl.scroll{
+	height:480px;
+	overflow: auto;
+	font-size:20px;
+}
+
+#slide_area dl dd.under_text .banner_area{
+	width:25%;
+	float:left;
+}
+
+#logo{
+	position:absolute;
+	z-index:30;
+	top:30px;
+}
+#back_logo{
+	position:absolute;
+	z-index:1;
+	top:100px;
+	right:80px;
+}
+
+/* slide_obj */
+
+
+
+
+
+#slide_area dl dt.package ul{
+	display:block;
+	width:100%;
+	height:100%;
+}
+
+#slide_area dl .package .main_img{
+	display:block;
+	width:84%;
+	top:16%;
+	position:absolute;
+	z-index:3;
+}
+#slide_area .news dl dt.package .main_img{
+	position:inherit;
+}
+
+
+#slide_area dl .package .shadow{
+	display:block;
+	width:100%;
+	top:0px;
+}
+
+
+.niconico_ref{
+	display:block;
+	width:100%;
+	margin-top:-10px;
+}
+
+
+#slide_area dl dd.under_text dt{
+	border:none;
+	width:100%;
+}
+
+#slide_carosel_arrows{
+	position: absolute;
+	background-color:rgba(255,255,255,0.65);
+	top:180px;
+	right:0;
+	z-index:30;
+	padding:10px;
+	padding-left:40px;
+	width:90%;
+
+}
+
+#carouselright{
+	width:80px;
+	position:absolute;
+	right:4px;
+	z-index:20;
+	top:25px;
+	opacity:0.5;
+}
+#carouselleft{
+	width:80px;
+	position:absolute;
+	left:4px;
+	z-index:20;
+	top:25px;
+	opacity:0.5;
+}
+#carouselright_bg{
+	width:66px;
+	right:0;
+	z-index:19;
+	position:absolute;
+}
+#carouselleft_bg{
+	width:66px;
+	left:0;
+	z-index:19;
+	position:absolute;
+}
+
+#carouselright img,#carouselleft img{
+	width:100%;
+}
+/*---news---*/
+
+#news_area{
+	width:1146px;
+	margin:10px auto;
+
+	position:relative;
+	background-color: rgba(255,255,255,0.6);
+	
+	padding:10px;
+	/*
+		border:6px solid #ffe0dd;
+		border-top:0px solid #FFFFFF;
+	-moz-border-radius: 0px 0px 10px 10px;
+-webkit-border-radius: 0px 0px 10px 10px;
+border-radius: 0px 0px 10px 10px;
+*/
+/*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+}
+#news_inner{
+	padding:10px;
+	/*
+			background-image:url(../img/Color_bg.png);
+			*/
+			
+
+			
+  background-repeat: no-repeat;            /* 背景を繰り返さない */
+  background-position: 50% 50%;            /* 背景画像の位置は画面中央 */
+  background-attachment:fixed;             /* 背景画像を固定する */
+  -moz-background-size:cover;
+background-size:cover;
+	
+}
+#news_top{
+	width:1180px;
+	height:184px;
+	top:-120px;
+	z-index:50;
+	left:-7px;
+	position:absolute;
+	background: url(../img/news_top.png) no-repeat;
+}
+
+#news_area iframe {
+}
+
+
+#acMenu dt{
+    display:block;
+    width:90%;;
+	padding:5px;
+	margin:10px;
+    line-height:50px;
+    text-align:center;
+    border:#ffe0dd 4px solid;
+    cursor:pointer;
+	background-color:#ffa3c8;
+	border-radius:20px;
+-webkit-border-radius:20px;
+-moz-border-radius:20px;
+font-size:20px;
+font-weight:bold;
+color: #FFF;
+/*
+	text-shadow: -1px -1px 0px #fff,
+ 1px -1px 0px #fff,
+ 1px 1px 0px #fff,
+ -1px 1px 0px #fff;
+ */
+    }
+#acMenu dd{
+	/*
+    display:none;
+	*/
+	color: #f277a0;
+	text-align:center;
+	font-weight:bold;
+	text-shadow: -1px -1px 0px #fff,
+ 1px -1px 0px #fff,
+ 1px 1px 0px #fff,
+ -1px 1px 0px #fff;
+ 
+	font-size:20px;
+    }
+#acMenu dd img {
+/*
+border: 4px solid #fff;
+*/
+border-radius: 10px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+box-shadow: rgba(55, 183, 255, 0.65098) 0px 0px 6px 3px;
+-webkit-box-shadow: rgba(55, 183, 255, 0.65098) 0px 0px 6px 3px;
+-moz-box-shadow: rgba(55, 183, 255, 0.65098) 0px 0px 6px 3px;
+}
+
+/*anime*/
+.background-hack{
+
+	-webkit-animation: 'anime1' 3s ease 0 infinite alternate;
+	animation-name: 'anime1';
+	animation-duration: 3s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-direction:alternate;
+
+	-moz-animation-name: anime1;
+	-moz-animation-duration: 3s;
+	-moz-animation-timing-function: ease;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-direction:alternate;
+}
+
+@keyframes 'anime1' {
+	0% {	opacity:1;	}
+	100% {	opacity:0;	}
+}
+@-webkit-keyframes 'anime1' {
+	0% {	opacity:1;	}
+	100% {	opacity:0;	}
+}
+@-moz-keyframes anime1 {
+	from {	opacity:1;	}
+	to {	opacity:0;	}
+}
+
+
+
+
+/* -----------disco---------------- */
+#disco_area{
+	margin-top:-50px;
+	width:100%;
+	position:relative;
+	/*
+		background-image:url(../img/disco/disco_bg.png);
+  */
+  background-repeat: no-repeat;            /* 背景を繰り返さない */
+  background-position: 50% 50%;            /* 背景画像の位置は画面中央 */
+  background-attachment:fixed;             /* 背景画像を固定する */
+  -moz-background-size:cover;
+background-size:cover;
+
+	
+}
+#disco_inner{
+
+margin:5px;
+}
+
+
+#disco_area iframe{
+	border:none;
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+#disc{
+margin:0 auto;
+}
+
+#disco{
+	overflow:hidden;
+}
+
+#disco dt{
+	margin:10px;
+	margin-bottom:20px;
+}
+
+#disco dl dd{
+	float:left;
+	width:200px;
+	margin-left:30px;
+	position:relative;
+}
+#disco dl dd img{
+	width:100%;
+}
+#disco .cd_case{
+	position:absolute;
+	z-index:200;
+	top:-19px;
+	left:-19px;
+	width:180px;
+}
+#disco .cd_case img{
+	width:430px;
+	margin:20px;
+	margin-top:60px;
+	
+}
+#disco .package{
+	width:500px;
+	height:500px;
+}
+#disco .main_img img{
+	width:360px;
+	padding:38px;
+	padding-top:72px;
+}
+
+#disco .shadow{
+	width:208px;
+	left:-6px;
+	position:absolute;
+	z-index:200;
+}
+#disco dl a{
+	display:block;
+}
+
+#disco dl dd .title{
+	position: relative;
+	z-index:10;
+	text-align:center;
+	padding-top:5px;
+}
+
+#disco_top{
+	position:relative;
+	width:100%;
+	height:200px;
+	/**/
+	overflow:hidden;
+	
+	margin:0;
+	   background-image:url(../img/disco_top_bg.png); 
+    background-repeat: repeat-x;
+}
+
+#disco_top dt{
+	position:relative;
+	z-index:10;
+	text-align:center;
+	width:800px;
+	padding-top:20px;
+	margin:0 auto;
+}
+#disco_top dt img{
+	width:100%;
+}
+#disco_top #disco_cd{
+	top:0;
+	right:80px;
+	position:absolute;
+	z-index:9;
+	margin:0;
+}
+
+#disco_top #cd_under{
+	
+	top:0px;
+	right:0px;
+	
+	position:absolute;
+	z-index:8;
+	width:20%;
+	margin:0;
+}
+
+#disco_top #cd_under img{
+	width:100%;
+}
+
+#disco .largeLabel{
+	padding:5px!important;
+	font-size:9px!important;
+	width:200px;
+	text-align:center;
+	color:#000563 !important;
+	text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.75);
+	display:none;
+}
+#disco .smallLabel{
+	padding:5px!important;
+	font-size:9px!important;
+		width:200px;
+	text-align:center;
+	color:#001A98 !important;
+	text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.75);
+	display:none;
+}
+#disco .title img{
+	width:50%;
+}
+
+/*--profile--*/
+
+#profile{
+	/*
+	background-image:url(../img/about/back.png); 
+	*/
+  background-repeat: no-repeat;            /* 背景を繰り返さない */
+  background-position: 50% 50%;            /* 背景画像の位置は画面中央 */
+  background-attachment:fixed;             /* 背景画像を固定する */
+  -moz-background-size:cover;
+	background-size:cover;
+	margin-bottom:-10px;
+	
+	
+		/* border-radius */
+border-radius:10px;
+-webkit-border-radius:10px;
+-moz-border-radius:10px;
+	
+	/* box-shadow */
+box-shadow:rgba(255, 227, 227, 0.65098) 0px 0px 6px 3px;
+-webkit-box-shadow:rgba(255, 227, 227, 0.65098) 0px 0px 6px 3px;
+-moz-box-shadow:rgba(255, 227, 227, 0.65098) 0px 0px 6px 3px;
+/*
+box-shadow:rgba(255, 255, 255, 0.882353) 0px 0px 6px 5px inset;
+-webkit-box-shadow:rgba(255, 255, 255, 0.882353) 0px 0px 6px 5px inset;
+-moz-box-shadow:rgba(255, 255, 255, 0.882353) 0px 0px 6px 5px inset;
+*/
+margin-bottom:60px;
+}
+#profile_inner{
+	margin:5px;
+}
+
+
+#profile .cont{
+	padding:1%;
+	font-weight:bold;
+	font-size:20px;
+	color: #3b3b3b;
+text-shadow:
+-1px -1px 0px #fff,
+1px -1px 0px #fff,
+1px 1px 0px #fff,
+-1px 1px 0px #fff;
+}
+
+#profile .cont.title{
+	background-color: rgba(96,241,121,0.1);
+	height:61px;
+}
+
+#profile .cont.top{
+	background-color: rgba(255,193,223,0.1);
+	/*
+	height:480px;
+	*/
+	color:#f277a0;
+	line-height:1.3;
+}
+#profile .cont.middle{
+	background-color: rgba(147,165,255,0.1);
+	/*
+	height:500px;
+	*/
+	color:#250473;
+}
+#profile .cont.bottom{
+	background-color: rgba(247,241,121,0.1);
+	/*
+	height:310px;
+	*/
+	color:#bba71e;
+}
+
+#profile .cont ul{
+	float:left;
+	width:28%;
+	padding:2%;
+}
+#profile .cont.title ul{
+	padding:0;
+}
+#profile .cont.top ul{
+	width:31%;
+	overflow:hidden;
+}
+
+#profile .cont.top ul.left{
+	width:22%;
+}
+
+
+#profile .cont.middle ul{
+	width:26%;
+}
+#profile .cont.middle ul.left{
+	width:66%;
+}
+#profile .cont.bottom ul{
+	position:relative;
+	z-index:10;
+	padding-bottom:0;
+}
+
+#profile .cont.bottom ul.left{
+	padding-top:130px;
+	padding-left:0;
+	z-index:8;
+}
+
+#profile .cont.top .twitter a{
+	background:#59cfd7 url(../img/about/twitter.png) 3px 40% no-repeat;
+	padding:2px;
+	padding-left:20px;
+	padding-right:6px;
+	text-shadow: none;
+	color:#fff;
+		-moz-border-radius:3px;
+-webkit-border-radius:3px;
+border-radius:3px;
+/*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+}
+
+
+/*-----------royal3d-------------*/
+/*
+#myDiv{
+	margin-left:-200px;
+}
+#myDiv2{
+	margin-left:-100px;
+}
+#myDiv3{
+	margin-left:-200px;
+}
+#myDiv4{
+	margin-left:-100px;
+}
+#myDiv5{
+	margin-left:-200px;
+}
+*/
+/*-----------duration-------------*/
+
+.duration {
+
+-moz-transition-duration:1s;
+-webkit-transition-duration:1s;
+-o-transition-duration:1s;
+-ms-transition-duration:1s;
+
+-moz-transition-timing-function:ease-in-out;
+-webkit-transition-timing-function:ease-in-out;
+-o-transition-timing-function:ease-in-out;
+-ms-transition-timing-function:ease-in-out;
+}
+
+/*---------------rotate------------*/
+
+.spin_infinite {
+/* keyframes に任意の名前を付ける */
+  -moz-animation-name: 'rotate1';
+  -webkit-animation-name: 'rotate1';
+  animation-name: 'rotate1';
+  -goog-ms-animation-name: 'rotate1'; 
+ 
+ /* 1動作(ここでは1回転)あたりの秒数 */
+  -moz-animation-duration: 4s;
+  -webkit-animation-duration: 4s;
+  animation-duration: 4s;
+  -goog-ms-animation-duration: 4s;
+ 
+/* 動作の向き、初期値はnormal 、逆再生は alternate */
+  -moz-animation-direction: normal;
+  -webkit-animation-direction: normal;
+  animation-direction: normal;
+  -goog-ms-animation-direction: normal;
+  
+/* 動き方 linear, ease, easein, ease-out, ease-in-out */
+  -moz-animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -goog-ms-animation-timing-function: linear;
+  
+/* 動作 (ここでは回転) の回数を数値で指定、無限ループは infinite */
+  -moz-animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -goog-ms-animation-iteration-count: infinite;
+}
+ 
+@-webkit-keyframes 'rotate1' {
+  from {
+  /* 最初の回転角 */
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -goog-ms-transform: rotate(0deg);
+  }
+  /* 1動作の最後 ( 1duration 後) の回転角 */
+  to {
+    -moz-transform: rotate(-360deg);
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+    -goog-ms-transform: rotate(-360deg);
+  }
+}
+
+/*------------------*/
+
+.go_to_page_top{
+	padding:10px;
+	height:100px;
+}
+.go_to_page_top a{
+	width:100px;
+	display:block;
+	float:right;
+}
+.go_to_page_top a img{
+	width:100%;
+}
+
+/*-----------anime-------------*/
+
+
+
+
+/*
+	clearfix
+*/
+
+.clearfix:before {
+  content: "."; 
+  display: block;  
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+.clearfix {
+  min-height: 1px;
+}
+
+* html .clearfix {
+  height: 1px;
+  /*\*//*/
+  height: auto;
+  overflow: hidden;
+  /**/
+}
+
