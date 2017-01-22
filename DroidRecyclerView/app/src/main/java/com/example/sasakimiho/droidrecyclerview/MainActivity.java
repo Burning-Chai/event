@@ -114,7 +114,14 @@ public class MainActivity extends AppCompatActivity {
                         .baseUrl(baseUrl)
                         .addConverterFactory(GsonConverterFactory.create())
                         .build();
-                rt.create(ImageApi.class).postImage(fileName);
+                rt.create(ImageApi.class).postImage(fileName).enqueue(new Callback<String>() {
+                    @Override
+                    public void onResponse(Call<String> call, Response<String> response) {
+                    }
+                    @Override
+                    public void onFailure(Call<String> call, Throwable t) {
+                    }
+                });
             }
         };
 
